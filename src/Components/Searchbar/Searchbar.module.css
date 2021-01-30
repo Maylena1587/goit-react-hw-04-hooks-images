@@ -1,0 +1,71 @@
+.searchbar {
+  top: 0;
+  left: 0;
+  position: sticky;
+  width: 100%;
+  z-index: 1100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: #3f51b5;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.form {
+  position: relative;
+
+  width: 35%;
+}
+
+.input {
+  width: 100%;
+
+  padding: 5px 40px;
+
+  font-family: Roboto, sans-serif;
+
+  border-radius: 5px;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  width: 26px;
+  height: 26px;
+
+  font-family: Roboto, sans-serif;
+
+  border: none;
+
+  background-color: transparent;
+
+  transition: color 250ms ease;
+
+  cursor: pointer;
+}
+
+.btn:focus,
+.btn:hover {
+  color: rgb(255, 0, 200);
+  outline: none;
+}
+
+.react-icons {
+  vertical-align: middle;
+}
